@@ -40,9 +40,9 @@ e.g. The recoard name and labeled  data (starting with a colon `:`). Also this r
 (RECOARD_NAME) (RECOARD_LABEL_NAME) (RECOARD_DATA...)
     (ORG_DATA) (ORG_DATA_LABEL_NAME) (ADDITIONAL_DATA...)
         ...
-        ```
+```
 
-        See `examples` directory for more usage.
+See `examples` directory for more usage.
 
 ## License
 
