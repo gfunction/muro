@@ -6,7 +6,7 @@ This configuration language is supposed to use for automatic programming or syst
 
 ### How to use?
 
-Binding callback functions and begining to interpret configuration file written in Muro by using Muro-binding library. See examples for more usage.
+Binding callback functions and interpreting configuration file written in Muro by using Muro-binding library. See examples for more usage.
 
 ### What does this name mean?
 
@@ -28,16 +28,16 @@ Muro supports **JavaScript** now because there is only JavaScript library. I'll 
 
 Here is 2 examples of Muro grammar.
 
-e.g. The recoard name and data.
+e.g. The record name and data.
 
 ```
-(RECOARD_NAME) (RECOARD_DATA)
+(RECORD_NAME) (RECORD_DATA)
 ```
 
-e.g. The recoard name and labeled  data (starting with a colon `:`). Also this recoard has more than one data list.
+e.g. The record name and labeled  data (starting with a colon `:`). Also this record has more than one data list.
 
 ```
-(RECOARD_NAME) (RECOARD_LABEL_NAME) (RECOARD_DATA...)
+(RECORD_NAME) (RECORD_LABEL_NAME) (RECORD_DATA...)
     (ORG_DATA) (ORG_DATA_LABEL_NAME) (ADDITIONAL_DATA...)
         ...
 ```
