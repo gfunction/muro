@@ -1,0 +1,7 @@
+message : The comment out test.
+
+# comment out!
+// comment out!
+/* comment out!
+ * comment out!
+ */

@@ -1,0 +1,19 @@
+> info
+  // You can write strings without single/double quotes.
+  // The only a colon joins all record data.
+  simple.muro : The simple Muro example.
+
+> profile
+  name : Duck Duck
+  birthday 2000/01/01
+  interesting swimming walking talk
+
+  > bio
+    text :
+      Hello.
+      My name is Duck.
+
+> profile : bio2
+  text :
+    Hi!
+    I'm Duck Duck!
